@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Livewire;
+namespace App\Livewire\Auth;
 
 use Livewire\Component;
 
-class ProductDetail extends Component
+class Login extends Component
 {
     public function render()
     {
-        return view('livewire.product-detail')
+        return view('livewire.auth.login')
              ->layout('components.layouts.app', ['hideBottomNav' => true]);
     }
 }

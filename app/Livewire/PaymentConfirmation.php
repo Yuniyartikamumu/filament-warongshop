@@ -4,11 +4,11 @@ namespace App\Livewire;
 
 use Livewire\Component;
 
-class ProductDetail extends Component
+class PaymentConfirmation extends Component
 {
     public function render()
     {
-        return view('livewire.product-detail')
+        return view('livewire.payment-confirmation')
              ->layout('components.layouts.app', ['hideBottomNav' => true]);
     }
 }
